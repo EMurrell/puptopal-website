@@ -4,6 +4,10 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {},
+    fontFamily: {
+      display: "Ubuntu",
+      serif: "ui-serif",
+    },
   },
   variants: {
     extend: {},

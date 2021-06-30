@@ -4,23 +4,28 @@ import Navbar from "../components/Navbar";
 import Image from "next/image";
 import Hero from "../components/Hero";
 import About from "../components/About";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
     <>
+      <Head>
+        <title>Pup To Pal</title>
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <link rel="icon" href="/bwLogo.png" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap"
+          rel="stylesheet"
+        />
+      </Head>
       <Navbar />
-      <div className="flex flex-col items-center justify-center min-h-screen ">
-        <Head>
-          <title>Pup To Pal</title>
+      <Hero />
+      <About />
 
-          <link rel="icon" href="/justLogo.png" />
-        </Head>
-        <Hero />
-
-        <main className="flex flex-col items-center justify-center flex-1 w-full px-20 text-center"></main>
-
-        <footer className="flex items-center justify-center w-full h-24 border-t"></footer>
-      </div>
+      <Footer />
     </>
   );
 }

@@ -1,4 +1,3 @@
-/* This example requires Tailwind CSS v2.0+ */
 import { Fragment } from "react";
 import { Disclosure, Menu, Transition } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
@@ -15,11 +14,11 @@ function classNames(...classes) {
 
 export default function Nav() {
   return (
-    <Disclosure as="nav" className="bg-green-400 ">
+    <Disclosure as="nav" className="sticky top-0 z-50 bg-green-400 ">
       {({ open }) => (
         <>
-          <div className="px-2 py-4 mx-auto ml-4 sm:px-6 lg:px-8">
-            <div className="relative flex items-center justify-between h-12">
+          <div className="p-2 mx-auto ml-4 sm:px-6 lg:px-8">
+            <div className="relative flex items-center justify-between h-10">
               <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                 {/* Mobile menu button*/}
                 <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-md hover:text-white hover:bg-green-300 focus:outline-none ">
@@ -52,6 +51,7 @@ export default function Nav() {
                     />
                   </a>
                 </div>
+
                 <div className="hidden sm:block sm:ml-6">
                   <div className="flex space-x-4">
                     {navigation.map((item) => (
@@ -72,7 +72,16 @@ export default function Nav() {
                   </div>
                 </div>
               </div>
+              <p className="hidden mt-1 font-semibold text-right text-white md:block text-bold">
+                🕾 (613) 883-6232 <br />
+                🖂 kaarinaddewan@gmail.com
+              </p>
             </div>
+            <p className="text-sm font-semibold text-center text-white md:hidden">
+              🕾 (613) 883-6232
+              <br />
+              🖂 kaarinaddewan@gmail.com
+            </p>
           </div>
           <Disclosure.Panel className="sm:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1">
