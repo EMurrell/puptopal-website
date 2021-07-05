@@ -17,10 +17,10 @@ function FadeIn({ children }) {
       ref={ref}
       animate={controls}
       initial="hidden"
-      transition={{ type: "spring", stiffness: 50 }}
+      transition={{ delay: 0.3, type: "spring", stiffness: 50 }}
       variants={{
         visible: { opacity: 1, scale: 1 },
-        hidden: { opacity: 0.1, scale: 0.8 },
+        hidden: { opacity: 0, scale: 0.8 },
       }}
     >
       {children}

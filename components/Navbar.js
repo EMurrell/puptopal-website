@@ -3,9 +3,10 @@ import { Disclosure, Menu, Transition } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
 
 const navigation = [
-  { name: "Home", href: "#", current: true },
-  { name: "About", href: "#", current: false },
-  { name: "Contact", href: "#", current: false },
+  // { name: "Home", href: "#", current: true },
+  { name: "Services", href: "#services", current: false },
+  { name: "About", href: "#about", current: false },
+  { name: "Contact", href: "#contact", current: false },
 ];
 
 function classNames(...classes) {
@@ -36,7 +37,7 @@ export default function Nav() {
                   )}
                 </Disclosure.Button>
               </div>
-              <div className="flex items-center justify-center flex-1 sm:items-stretch sm:justify-start">
+              <div className="flex items-center justify-center flex-1 pt-2 sm:items-stretch sm:justify-start">
                 <div className="flex items-center ">
                   <a href="#">
                     <img
@@ -73,14 +74,14 @@ export default function Nav() {
                 </div>
               </div>
               <p className="hidden mt-1 font-semibold text-right text-white md:block text-bold">
-                🕾 (613) 883-6232 <br />
-                🖂 kaarinaddewan@gmail.com
+                (613) 883-6232 <br />
+                kaarinaddewan@gmail.com
               </p>
             </div>
             <p className="text-sm font-semibold text-center text-white md:hidden">
-              🕾 (613) 883-6232
+              (613) 883-6232
               <br />
-              🖂 kaarinaddewan@gmail.com
+              kaarinaddewan@gmail.com
             </p>
           </div>
           <Disclosure.Panel className="sm:hidden">

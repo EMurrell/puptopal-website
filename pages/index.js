@@ -2,9 +2,12 @@ import Head from "next/head";
 import Link from "next/link";
 import Navbar from "../components/Navbar";
 import Image from "next/image";
-import Hero from "../components/Hero";
 import About from "../components/About";
+import Service from "../components/Service";
 import Footer from "../components/Footer";
+import Header from "../components/Header";
+import Testimonials from "../components/Testimonials";
+import ContactUs from "../components/ContactUs";
 
 export default function Home() {
   return (
@@ -22,9 +25,13 @@ export default function Home() {
         />
       </Head>
       <Navbar />
-      <Hero />
+      <Header />
+
+      <Service />
+      <Testimonials />
       <About />
 
+      <ContactUs />
       <Footer />
     </>
   );
