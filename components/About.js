@@ -18,11 +18,11 @@ export default function About() {
           />
         </div>
 
-        <div className="flex flex-col items-center px-2 pb-8 md:w-1/2">
+        <div className="flex flex-col items-center pb-8 pl-2 pr-12 md:w-1/2">
           <h3 className="py-4 text-xl font-bold text-left text-green-500 lg:text-2xl font-display">
             ABOUT ME
           </h3>
-          <p className="text-base text-gray-500 lg:text-lg">
+          <p className="mt-2 text-base text-gray-500 lg:text-lg">
             I am a lifetime trainer who grew up in a home that trained Labradors
             for duck trails. When I turned 40, I decided to make this passion a
             reality. I completed a 2-year dog behavior and therapy course with
@@ -30,6 +30,13 @@ export default function About() {
             America). I graduated with honors and opened my own training
             classes. I am trained for all breeds, as well as specific breed
             behaviors and issues.
+          </p>
+          <p className="mt-2 text-base text-gray-500 lg:text-lg">
+            I believe in Family Training for the real world. I work with
+            families in a dog environment, including children, parents,
+            roommates, anyone the dog spends their day with. We need our pups to
+            listen to our young children with the same respect it would have for
+            Mom and Dad. I use positive reinforcement and no punishments.
           </p>
         </div>
       </div>

@@ -47,11 +47,8 @@ export default function Service() {
       <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <FadeIn>
           <div className="text-center">
-            <p className="mt-2 text-xl font-bold leading-8 text-green-500 font-display sm:text-2xl">
-              PUP TO PAL:
-            </p>
-            <p className="mt-2 text-xl font-bold leading-8 text-green-500 font-display sm:text-2xl">
-              HERE TO HELP
+            <p className="mt-2 text-2xl font-bold leading-8 text-green-500 xl:text-3xl font-display ">
+              PUP TO PAL - HERE TO HELP
             </p>
 
             <p className="max-w-2xl mt-4 text-lg text-gray-600 lg:mx-auto font-display">

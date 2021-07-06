@@ -30,11 +30,11 @@ export default function Header() {
                   {" "}
                 </p>
                 <a
-                  href="/"
-                  aria-label=""
-                  className="inline-flex items-center text-xl font-semibold tracking-wider text-white "
+                  href="#services"
+                  aria-label="services"
+                  className="inline-flex items-center text-xl font-semibold tracking-wider text-white font-display "
                 >
-                  Learn more
+                  Learn More
                   <svg
                     className="inline-block w-3 ml-2"
                     fill="currentColor"

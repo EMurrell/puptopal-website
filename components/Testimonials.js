@@ -5,15 +5,10 @@ import Dots from "./Dots";
 export default function Testimonials() {
   const [change, setChange] = useState(false);
   return (
-    <div>
+    <div id="testimonials">
       <div className="container pt-16 mx-auto "></div>
       <div className="w-full py-16 bg-gray-100">
         <div className="container relative mx-auto">
-          <FadeIn>
-            <h1 className="mb-12 text-3xl font-extrabold text-center text-green-500 font-display xl:text-5xl md:text-center lg:text-center">
-              Hear From Our Clients
-            </h1>
-          </FadeIn>
           <div className="absolute top-0 -mt-16">
             <Dots />
           </div>
@@ -25,6 +20,10 @@ export default function Testimonials() {
             <section id="carousel">
               <figure className={change ? "hidden" : "block"}>
                 <div className="relative w-11/12 px-10 py-10 mx-auto bg-white sm:px-16">
+                  <h1 className="mb-6 text-2xl font-extrabold text-center text-green-500 font-display xl:text-3xl ">
+                    HEAR FROM OUR CLIENTS
+                  </h1>
+
                   <div className="flex items-center justify-between pb-8">
                     <div className="items-center xl:flex md:flex lg:flex sm:flex">
                       <div className="w-20 h-20">
@@ -89,6 +88,9 @@ export default function Testimonials() {
               </figure>
               <figure className={change ? "block" : "hidden"}>
                 <div className="relative w-11/12 px-10 py-10 mx-auto bg-white sm:px-16">
+                  <h1 className="mb-6 text-2xl font-extrabold text-center text-green-500 font-display xl:text-3xl ">
+                    HEAR FROM OUR CLIENTS
+                  </h1>
                   <div className="flex items-center justify-between pb-8">
                     <div className="items-center xl:flex md:flex lg:flex sm:flex">
                       <div className="w-20 h-20">

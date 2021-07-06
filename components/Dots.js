@@ -1,7 +1,7 @@
 export default function Dots() {
   return (
     <svg width={151} height={104} xmlns="http://www.w3.org/2000/svg">
-      <g fill="#34d399" fillRule="evenodd">
+      <g fill="#10b981" fillRule="evenodd">
         <rect x=".88" width={3} height={3} rx="1.5" />
         <rect x="17.88" width={3} height={3} rx="1.5" />
         <rect x="32.88" width={3} height={3} rx="1.5" />
