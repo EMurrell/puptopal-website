@@ -35,8 +35,8 @@ export default function About() {
             I believe in Family Training for the real world. I work with
             families in a dog environment, including children, parents,
             roommates, anyone the dog spends their day with. We need our pups to
-            listen to our young children with the same respect it would have for
-            Mom and Dad. I use positive reinforcement and no punishments.
+            listen to our young children with the same respect they would have
+            for Mom and Dad. I use positive reinforcement and no punishments.
           </p>
         </div>
       </div>

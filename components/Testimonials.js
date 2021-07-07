@@ -4,6 +4,7 @@ import Dots from "./Dots";
 
 export default function Testimonials() {
   const [change, setChange] = useState(false);
+
   return (
     <div id="testimonials">
       <div className="container pt-16 mx-auto "></div>
