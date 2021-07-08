@@ -69,7 +69,7 @@ export default function Testimonials() {
                     Kaarina has given me the confidence and knowledge to train
                     our little Charlie so our whole family is happier. The fact
                     that she's also trained our 6-year-old daughter how to
-                    manageC Charlie's puppy energy is beyond life-changing.
+                    manage Charlie's puppy energy is beyond life-changing.
                     Before this, our daughter was heart-broken because of
                     Charlie's excited behaviour and the nipping that came with
                     it was frightening and overwhelming to her. I look forward

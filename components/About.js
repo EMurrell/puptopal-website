@@ -10,7 +10,7 @@ export default function About() {
         className="flex flex-col items-center justify-center px-4 py-4 m-8 md:flex-row"
       >
         <div className="flex justify-center w-full py-4 md:w-1/2 ">
-          <Image
+          <img
             src="/kaarinacircle.png"
             alt="kaarina"
             height={400}
