@@ -29,7 +29,7 @@ export default function Testimonials() {
                     <div className="items-center xl:flex md:flex lg:flex sm:flex">
                       <div className="w-20 h-20">
                         <img
-                          src="/lildog1.jpg"
+                          src="/lildog2.jpg"
                           alt="Charlie the dog"
                           className="object-cover w-full h-full rounded-full "
                         />
