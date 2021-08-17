@@ -52,7 +52,7 @@ export default function Service() {
             </p>
 
             <p className="max-w-2xl mt-4 text-lg text-gray-600 lg:mx-auto font-display">
-              Communication is key to any healthy relationship. Your dog WANTS
+              Communication is key to any healthy relationship. Your dog wants
               to listen. We can help them understand.
             </p>
           </div>

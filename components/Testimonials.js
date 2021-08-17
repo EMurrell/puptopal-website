@@ -79,12 +79,12 @@ export default function Testimonials() {
                     our expectations!
                   </p>
 
-                  <img
+                  {/* <img
                     src="https://cdn.tuk.dev/assets/Path-right-arrow.png"
                     alt="arrow"
                     className="absolute right-0 mr-16 cursor-pointer sm:-mt-6"
                     onClick={() => setChange(!change)}
-                  />
+                  /> */}
                 </div>
               </figure>
               <figure className={change ? "block" : "hidden"}>
