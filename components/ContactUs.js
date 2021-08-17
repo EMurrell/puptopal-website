@@ -1,6 +1,5 @@
 import FadeIn from "./FadeIn";
 import Dots from "./Dots";
-import { getDomainLocale } from "next/dist/next-server/lib/router/router";
 
 export default function ContactUs() {
   return (
