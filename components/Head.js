@@ -6,8 +6,9 @@ export default function Head1() {
       <title>Pup To Pal</title>
       <meta charSet="utf-8" />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-
+      <meta name="description" content="Dog Training For Real Life" />
       <link rel="icon" href="/bwLogo.png" />
+
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link
         rel="preconnect"
@@ -15,7 +16,7 @@ export default function Head1() {
         crossOrigin="true"
       />
       <link
-        href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
         rel="stylesheet"
       />
     </Head>

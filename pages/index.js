@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Navbar from "../components/Navbar";
-
+import Nav from "../components/Nav";
 import About from "../components/About";
 import Service from "../components/Service";
 import Footer from "../components/Footer";
@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <>
       <Head />
-      <Navbar />
+      <Nav />
       <Header />
 
       <Service />

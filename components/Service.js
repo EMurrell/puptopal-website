@@ -43,41 +43,43 @@ const features = [
 
 export default function Service() {
   return (
-    <div id="services" className="py-16 my-6 bg-white">
-      <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+    <div
+      id="services"
+      className="py-16 my-6 tracking-wide text-gray-900 bg-white"
+    >
+      <div className="px-8 mx-auto max-w-7xl">
         <FadeIn>
           <div className="text-center">
-            <p className="mt-2 text-2xl font-bold leading-8 text-green-500 xl:text-3xl font-display ">
+            <p className="mt-4 text-2xl font-bold text-green-500 lg:text-3xl font-display ">
               PUP TO PAL - HERE TO HELP
             </p>
 
-            <p className="max-w-2xl mt-4 text-lg text-gray-600 lg:mx-auto font-display">
+            <p className="max-w-2xl mt-4 text-lg font-semibold lg:mx-auto">
               Communication is key to any healthy relationship. Your dog wants
               to listen. We can help them understand.
             </p>
           </div>
         </FadeIn>
-        <FadeIn>
-          <div className="mt-10">
-            <dl className="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
-              {features.map((feature) => (
+
+        <div className="mt-10">
+          <dl className="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
+            {features.map((feature) => (
+              <FadeIn>
                 <div key={feature.name} className="relative">
                   <dt>
-                    <div className="absolute flex items-center justify-center w-12 h-12 text-green-500 rounded-md">
-                      <feature.icon className="w-6 h-6" aria-hidden="true" />
+                    <div className="absolute flex items-center justify-center text-green-500 rounded-md">
+                      <feature.icon className="w-12 h-12" aria-hidden="true" />
                     </div>
-                    <p className="ml-16 text-lg font-medium leading-6 text-gray-600">
-                      {feature.name}
-                    </p>
+                    <p className="ml-16 text-lg font-bold">{feature.name}</p>
                   </dt>
-                  <dd className="mt-2 ml-16 text-base text-gray-500">
+                  <dd className="mt-2 ml-16 text-base ">
                     {feature.description}
                   </dd>
                 </div>
-              ))}
-            </dl>
-          </div>
-        </FadeIn>
+              </FadeIn>
+            ))}
+          </dl>
+        </div>
       </div>
     </div>
   );

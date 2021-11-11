@@ -6,7 +6,7 @@ export default function Footer() {
   };
 
   return (
-    <footer className="flex items-center justify-center w-full h-24 bg-green-400">
+    <footer className="flex items-center justify-center w-full h-24 bg-green-500">
       <h3 className=" text-gray-50 font-display">
         © {getCurrentYear()} Pup To Pal
         <br />
