@@ -63,7 +63,7 @@ export default function Testimonials() {
                   </svg>
                 </div>
                 <FadeIn>
-                  <p className="w-full pb-6 tracking-wide sm:w-10/12">
+                  <p className="w-full pb-6 tracking-wide sm:w-10/12 lg:text-lg">
                     Pup To Pal dog training has been incredible. My only regret
                     is not calling Kaarina sooner. Only 4 sessions in and
                     Kaarina has given me the confidence and knowledge to train

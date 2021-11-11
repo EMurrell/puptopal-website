@@ -23,18 +23,18 @@ export default function ContactUs() {
                   </h1>
                 </FadeIn>
 
-                <div className="py-4 xl:pl-32 lg:pl-32 md:pl-6 sm:pl-6 ">
+                <div className="py-4 lg:pl-32 xl:pl-44 md:pl-6 sm:pl-6 ">
                   <FadeIn>
-                    <p className="text-lg ">PHONE</p>
+                    <p className="text-lg font-bold">PHONE</p>
                     <p className="text-base ">(613) 883-6232</p>
                     <button className="px-6 py-2 mt-4 text-white transition duration-100 ease-in-out transform bg-green-500 shadow-lg rounded-3xl hover:bg-green-600 hover:scale-105">
                       <a href="tel:+1-613-883-6232">CALL NOW</a>
                     </button>
                   </FadeIn>
                 </div>
-                <div className="py-4 xl:pl-32 lg:pl-32 md:pl-6 sm:pl-6 ">
+                <div className="py-4 xl:pl-44 lg:pl-32 md:pl-6 sm:pl-6 ">
                   <FadeIn>
-                    <p className="text-lg ">EMAIL</p>
+                    <p className="text-lg font-bold">EMAIL</p>
                     <p className="text-base ">kaarinaddewan@gmail.com</p>
                     <button className="px-6 py-2 mt-4 text-white transition duration-100 ease-in-out transform bg-green-500 shadow-lg rounded-3xl hover:bg-green-600 hover:scale-105">
                       <a href="mailto:kaarinaddewan@gmail.com">EMAIL NOW</a>

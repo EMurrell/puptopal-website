@@ -39,7 +39,7 @@ export default function Nav() {
   return (
     <nav className="fixed z-50 flex justify-between w-full font-bold tracking-wide text-white bg-green-500 font-body">
       <div className="inline-flex px-4 py-6 text-3xl font-display md:pl-12 lg:pl-16">
-        Pup To Pal
+        <a href="#">Pup To Pal</a>
       </div>
 
       {/* The Side Bar Menu for screens smaller than 'Large' */}
