@@ -21,7 +21,7 @@ export default function About() {
 
       <div className="flex flex-col items-center pb-8 pl-2 pr-12 md:w-1/2">
         <FadeIn>
-          <h3 className="py-4 text-2xl font-bold tracking-wider text-green-500 lg:text-3xl font-display">
+          <h3 className="py-4 text-2xl font-bold tracking-wider text-green-600 lg:text-3xl font-display">
             ABOUT ME
           </h3>
         </FadeIn>

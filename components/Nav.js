@@ -37,7 +37,7 @@ export default function Nav() {
   const [open, cycleOpen] = useCycle(false, true);
 
   return (
-    <nav className="fixed z-50 flex justify-between w-full font-bold tracking-wide text-white bg-green-500 font-body">
+    <nav className="fixed z-50 flex justify-between w-full font-semibold tracking-wide text-white bg-green-600 font-body">
       <div className="inline-flex px-4 py-6 text-3xl font-display md:pl-12 lg:pl-16">
         <a href="#">Pup To Pal</a>
       </div>
@@ -46,7 +46,7 @@ export default function Nav() {
       <AnimatePresence>
         {open && (
           <motion.aside
-            className="fixed right-0 h-screen mt-20 bg-green-500 lg:hidden"
+            className="fixed right-0 h-screen mt-20 bg-green-600 lg:hidden"
             initial={{ width: 0 }}
             animate={{
               width: "100%",
@@ -68,7 +68,7 @@ export default function Nav() {
                 <motion.a
                   key={id}
                   href={to}
-                  className="flex my-6 transition duration-100 ease-in-out transform text-offwhite hover:scale-105"
+                  className="flex my-6 transition duration-100 ease-in-out transform hover:scale-105"
                   variants={itemVariants}
                   aria-current={links.current ? "page" : undefined}
                   onClick={cycleOpen}

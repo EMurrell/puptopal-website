@@ -50,7 +50,7 @@ export default function Service() {
       <div className="px-8 mx-auto max-w-7xl">
         <FadeIn>
           <div className="text-center">
-            <p className="mt-4 text-2xl font-bold text-green-500 lg:text-3xl font-display ">
+            <p className="mt-4 text-2xl font-bold text-green-600 lg:text-3xl font-display ">
               PUP TO PAL - HERE TO HELP
             </p>
 
@@ -62,23 +62,21 @@ export default function Service() {
         </FadeIn>
 
         <div className="mt-10">
-          <dl className="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
+          <div className="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
             {features.map((feature) => (
               <FadeIn>
                 <div key={feature.name} className="relative">
-                  <dt>
-                    <div className="absolute flex items-center justify-center text-green-500 rounded-md">
+                  <div>
+                    <div className="absolute flex items-center justify-center text-green-600 rounded-md">
                       <feature.icon className="w-12 h-12" aria-hidden="true" />
                     </div>
                     <p className="ml-16 text-lg font-bold">{feature.name}</p>
-                  </dt>
-                  <dd className="mt-2 ml-16 text-base ">
-                    {feature.description}
-                  </dd>
+                  </div>
+                  <p className="mt-2 ml-16 text-base ">{feature.description}</p>
                 </div>
               </FadeIn>
             ))}
-          </dl>
+          </div>
         </div>
       </div>
     </div>

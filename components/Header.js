@@ -22,15 +22,15 @@ export default function Header() {
           <div className="flex flex-col justify-between sm:items-center md:items-start xl:flex-row">
             <div className="w-full max-w-xl mb-12 xl:mb-0 xl:pr-16 xl:w-7/12">
               <FadeIn>
-                <h1 className="mb-6 text-6xl font-extrabold md:text-7xl ">
+                <h1 className="mb-6 text-6xl font-extrabold md:text-7xl">
                   Dog Training <br />
-                  For Real Life
+                  For Real Life.
                 </h1>
-                <button className="px-6 py-2 mt-4 text-white transition duration-100 ease-in-out transform bg-green-500 shadow-lg rounded-3xl hover:bg-green-600 hover:scale-105">
+                <button className="px-6 py-2 mt-4 font-medium text-white transition duration-100 ease-in-out transform bg-green-600 shadow-lg rounded-3xl hover:bg-green-500 hover:scale-105">
                   <a
                     href="#services"
                     aria-label="services"
-                    className="inline-flex items-center text-base font-semibold tracking-wider md:text-lg "
+                    className="inline-flex items-center tracking-wider "
                   >
                     LEARN MORE
                   </a>
