@@ -5,10 +5,10 @@ import { MenuIcon, XIcon } from "@heroicons/react/outline";
 import { Spin as Hamburger } from "hamburger-react";
 
 const links = [
-  { name: "Services", to: "#services" },
-  { name: "Testimonials", to: "#testimonials" },
-  { name: "About", to: "#about" },
-  { name: "Contact", to: "#contact" },
+  { name: "Services", to: "#services", id: 1 },
+  { name: "Testimonials", to: "#testimonials", id: 2 },
+  { name: "About", to: "#about", id: 3 },
+  { name: "Contact", to: "#contact", id: 4 },
 ];
 
 const itemVariants = {
@@ -95,7 +95,7 @@ export default function Nav() {
           <a
             key={id}
             href={to}
-            className="px-8 py-6 mt-1 text-xl transition duration-100 ease-in-out transform 2xl:text-xl hover:scale-105"
+            className="px-8 py-6 mt-1 text-xl font-medium transition duration-100 ease-in-out transform 2xl:text-xl hover:scale-105"
           >
             {name}
           </a>

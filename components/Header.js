@@ -20,13 +20,12 @@ export default function Header() {
         </svg>
         <div className="relative px-4 py-16 mx-auto overflow-hidden sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-12 lg:py-64">
           <div className="flex flex-col justify-between sm:items-center md:items-start xl:flex-row">
-            <div className="w-full max-w-xl mb-12 xl:mb-0 xl:pr-16 xl:w-7/12">
+            <div className="w-full max-w-xl mb-16 xl:mb-0 xl:pr-12 xl:w-7/12">
               <FadeIn>
                 <h1 className="mb-6 text-6xl font-extrabold md:text-7xl">
-                  Dog Training <br />
-                  For Real Life.
+                  Dog Training For Real Life.
                 </h1>
-                <button className="px-6 py-2 mt-4 font-medium text-white transition duration-100 ease-in-out transform bg-green-600 shadow-lg rounded-3xl hover:bg-green-500 hover:scale-105">
+                <button className="px-8 py-2 mt-4 text-lg font-semibold text-white transition duration-100 ease-in-out transform bg-green-600 rounded-sm shadow-lg hover:bg-green-500 hover:scale-105">
                   <a
                     href="#services"
                     aria-label="services"

@@ -7,7 +7,7 @@ export default function Testimonials() {
 
   return (
     <section id="testimonials">
-      <div className="container pt-16 mx-auto text-gray-900"></div>
+      <div className="container pt-16 mx-auto tracking-wide text-gray-900"></div>
       <div className="w-full py-16 bg-gray-100">
         <div className="container relative mx-auto">
           <div className="absolute top-0 -mt-16">
@@ -21,7 +21,7 @@ export default function Testimonials() {
             <figure className={change ? "hidden" : "block"}>
               <div className="relative w-11/12 px-10 py-10 mx-auto bg-white sm:px-16">
                 <FadeIn>
-                  <h1 className="mb-6 text-2xl font-extrabold tracking-wider text-center text-green-600 font-display lg:text-3xl ">
+                  <h1 className="mb-6 text-2xl font-extrabold text-center text-green-600 font-body lg:text-3xl ">
                     HEAR FROM OUR CLIENTS
                   </h1>
                 </FadeIn>
