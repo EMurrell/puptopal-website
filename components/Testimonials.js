@@ -7,7 +7,7 @@ export default function Testimonials() {
 
   return (
     <section id="testimonials">
-      <div className="container pt-16 mx-auto tracking-wide text-gray-900"></div>
+      <div className="container pt-16 mx-auto text-gray-900"></div>
       <div className="w-full py-16 bg-gray-100">
         <div className="container relative mx-auto">
           <div className="absolute top-0 -mt-16">
@@ -21,7 +21,7 @@ export default function Testimonials() {
             <figure className={change ? "hidden" : "block"}>
               <div className="relative w-11/12 px-10 py-10 mx-auto bg-white sm:px-16">
                 <FadeIn>
-                  <h1 className="mb-6 text-2xl font-extrabold text-center text-green-600 font-body lg:text-3xl ">
+                  <h1 className="mb-6 text-2xl font-extrabold text-center text-green-500 font-body lg:text-3xl ">
                     HEAR FROM OUR CLIENTS
                   </h1>
                 </FadeIn>
@@ -35,7 +35,7 @@ export default function Testimonials() {
                         className="object-cover w-20 h-20 rounded-full "
                       />
 
-                      <div className="pt-4 tracking-wider xl:pl-6 lg:pl-6 md:pl-6 sm:pl-6 sm:pt-0 font-display">
+                      <div className="pt-4 xl:pl-6 lg:pl-6 md:pl-6 sm:pl-6 sm:pt-0 font-display">
                         <p className="text-xl font-bold ">Christianne S.</p>
                         <p className="text-sm sm:text-xl">Pup To Pal Client</p>
                       </div>
@@ -62,7 +62,7 @@ export default function Testimonials() {
                   </svg>
                 </div>
                 <FadeIn>
-                  <p className="w-full pb-6 tracking-wide sm:w-10/12 lg:text-lg">
+                  <p className="w-full pb-6 sm:w-10/12 lg:text-lg">
                     Pup To Pal dog training has been incredible. My only regret
                     is not calling Kaarina sooner. Only 4 sessions in and
                     Kaarina has given me the confidence and knowledge to train

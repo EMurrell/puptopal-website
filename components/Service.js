@@ -49,14 +49,11 @@ const features = [
 
 export default function Service() {
   return (
-    <div
-      id="services"
-      className="py-16 my-6 tracking-wide text-gray-900 bg-white"
-    >
+    <div id="services" className="py-16 my-6 text-gray-900 bg-white">
       <div className="px-8 mx-auto max-w-7xl">
         <FadeIn>
           <div className="text-center">
-            <p className="mt-4 text-2xl font-extrabold text-green-600 lg:text-3xl font-body ">
+            <p className="mt-4 text-2xl font-extrabold text-green-500 lg:text-3xl font-body ">
               PUP TO PAL - HERE TO HELP
             </p>
 
@@ -73,7 +70,7 @@ export default function Service() {
               <FadeIn>
                 <div key={feature.id} className="relative">
                   <div>
-                    <div className="absolute flex items-center justify-center text-green-600 rounded-md">
+                    <div className="absolute flex items-center justify-center text-green-500 rounded-md">
                       <feature.icon className="w-12 h-12" aria-hidden="true" />
                     </div>
                     <p className="ml-16 text-lg font-bold">{feature.name}</p>

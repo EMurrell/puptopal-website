@@ -6,7 +6,7 @@ export default function About() {
   return (
     <div
       id="about"
-      className="flex flex-col items-center justify-center px-4 py-8 m-6 tracking-wide text-gray-900 md:flex-row font-body"
+      className="flex flex-col items-center justify-center px-4 py-8 m-6 text-gray-900 md:flex-row font-body"
     >
       <FadeIn>
         <div className="flex justify-center w-full py-4 md:w-3/4 ">
@@ -21,7 +21,7 @@ export default function About() {
 
       <div className="flex flex-col items-center pb-8 pl-2 pr-12 md:w-1/2">
         <FadeIn>
-          <h3 className="py-4 text-2xl font-extrabold text-green-600 lg:text-3xl ">
+          <h3 className="py-4 text-2xl font-extrabold text-green-500 lg:text-3xl ">
             ABOUT ME
           </h3>
         </FadeIn>

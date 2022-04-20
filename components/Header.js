@@ -25,7 +25,7 @@ export default function Header() {
                 <h1 className="mb-6 text-6xl font-extrabold md:text-7xl">
                   Dog Training For Real Life.
                 </h1>
-                <button className="px-8 py-2 mt-4 text-lg font-semibold text-white transition duration-100 ease-in-out transform bg-green-600 rounded-sm shadow-lg hover:bg-green-500 hover:scale-105">
+                <button className="px-8 py-4 mt-4 text-lg font-semibold text-white transition duration-100 ease-in-out transform bg-green-500 border-2 border-green-500 rounded-full shadow-lg hover:text-green-500 hover:bg-transparent ">
                   <a
                     href="#services"
                     aria-label="services"
