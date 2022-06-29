@@ -6,12 +6,20 @@ export default function Footer() {
   };
 
   return (
-    <footer className="flex items-center justify-center w-full h-24 bg-green-500">
-      <h3 className=" text-gray-50 font-display">
-        © {getCurrentYear()} Pup To Pal
-        <br />
-        All Rights Reserved
+    <footer className="flex flex-col items-center justify-center w-full h-24 bg-green-500 font-display">
+      <h3 className=" text-gray-50">
+        © {getCurrentYear()} Pup To Pal All Rights Reserved
       </h3>
+      <p className="text-center text-white">
+        Website powered by
+        <a
+          className="italic hover:text-neutral-200"
+          href="https://trailbridgeweb.com"
+        >
+          {" "}
+          Trailbridge Web
+        </a>
+      </p>
     </footer>
   );
 }
